@@ -1,0 +1,11 @@
+D:\Project\MantiScanServices\MantiScanServices\bin\Release\netcoreapp2.0\MantiScanServices.deps.json
+D:\Project\MantiScanServices\MantiScanServices\bin\Release\netcoreapp2.0\MantiScanServices.runtimeconfig.json
+D:\Project\MantiScanServices\MantiScanServices\bin\Release\netcoreapp2.0\MantiScanServices.runtimeconfig.dev.json
+D:\Project\MantiScanServices\MantiScanServices\bin\Release\netcoreapp2.0\MantiScanServices.dll
+D:\Project\MantiScanServices\MantiScanServices\bin\Release\netcoreapp2.0\MantiScanServices.pdb
+D:\Project\MantiScanServices\MantiScanServices\obj\Release\netcoreapp2.0\MantiScanServices.csprojAssemblyReference.cache
+D:\Project\MantiScanServices\MantiScanServices\obj\Release\netcoreapp2.0\MantiScanServices.csproj.CoreCompileInputs.cache
+D:\Project\MantiScanServices\MantiScanServices\obj\Release\netcoreapp2.0\MantiScanServices.AssemblyInfoInputs.cache
+D:\Project\MantiScanServices\MantiScanServices\obj\Release\netcoreapp2.0\MantiScanServices.AssemblyInfo.cs
+D:\Project\MantiScanServices\MantiScanServices\obj\Release\netcoreapp2.0\MantiScanServices.dll
+D:\Project\MantiScanServices\MantiScanServices\obj\Release\netcoreapp2.0\MantiScanServices.pdb

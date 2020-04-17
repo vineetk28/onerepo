@@ -1,0 +1,39 @@
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\MantiScanServices.deps.json
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\MantiScanServices.runtimeconfig.json
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\MantiScanServices.runtimeconfig.dev.json
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\MantiScanServices.dll
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\MantiScanServices.pdb
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.deps.json
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.runtimeconfig.json
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.runtimeconfig.dev.json
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.dll
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.pdb
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.xml
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.csproj.CoreCompileInputs.cache
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.AssemblyInfoInputs.cache
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.AssemblyInfo.cs
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.dll
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.pdb
+D:\ravi\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.csprojAssemblyReference.cache
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.deps.json
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.runtimeconfig.json
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.runtimeconfig.dev.json
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.dll
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.pdb
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.xml
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.csproj.CoreCompileInputs.cache
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.AssemblyInfoInputs.cache
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.AssemblyInfo.cs
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.dll
+D:\ravi data\project\MantiScan\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.pdb
+D:\Project\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.deps.json
+D:\Project\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.runtimeconfig.json
+D:\Project\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.runtimeconfig.dev.json
+D:\Project\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.dll
+D:\Project\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.pdb
+D:\Project\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.xml
+D:\Project\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.csproj.CoreCompileInputs.cache
+D:\Project\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.AssemblyInfoInputs.cache
+D:\Project\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.AssemblyInfo.cs
+D:\Project\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.dll
+D:\Project\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.pdb

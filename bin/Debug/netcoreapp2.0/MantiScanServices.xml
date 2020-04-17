@@ -1,0 +1,724 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MantiScanServices</name>
+    </assembly>
+    <members>
+        <member name="F:MantiScanServices.Common.AnraConfiguration.EmailFrom">
+            <summary>
+            Email and Text settings
+            </summary>
+        </member>
+        <member name="M:MantiScanServices.Controllers.AuthController.Post(MantiScanServices.ViewModel.Security.AuthRequest)">
+            <summary>
+            Authenticate a user and issue a token if valid user
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MantiScanServices.Controllers.AuthController.Logout">
+            <summary>
+            Used to Log out user
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MantiScanServices.Controllers.CommunicationController.PostEmail(MantiScanServices.ViewModel.EmailTestViewModel)">
+            <summary>
+            send  mail to user.
+            </summary>
+        </member>
+        <member name="M:MantiScanServices.Controllers.IncidentReportController.GetAllIncidentReport">
+            <summary>
+            Returns IncidentReport list for the authenticated user
+            </summary>		
+        </member>
+        <member name="M:MantiScanServices.Controllers.IncidentReportController.GetIncidentReportById(System.Int64)">
+            <summary>
+            Request information regarding Specific Report
+            </summary>
+            <remarks>Allows querying for Report data.</remarks>
+            <param name="id">Id</param>
+            <response code="200">Successful data request. Response includes requested data.</response>
+            <response code="400">Bad request. Typically validation error. Fix your request and retry.</response>
+            <response code="429">Too many recent requests from you. Wait to make further queries.</response>
+        </member>
+        <member name="M:MantiScanServices.Controllers.IncidentReportController.GetIncidentReportByTowerId(System.String)">
+            <summary>
+            Returns IncidentReport list based on tower id
+            </summary>		
+            /// <param name="TowerId">Id</param>
+        </member>
+        <member name="M:MantiScanServices.Controllers.IncidentReportController.DeleteReport(System.Int64)">
+            <summary>
+            Delete Specific Report
+            </summary>
+            <remarks>Delete Specific Report</remarks>
+            <param name="id">Id</param>
+            <response code="200">Successful data request. Response includes requested data.</response>
+            <response code="400">Bad request. Typically validation error. Fix your request and retry.</response>
+            <response code="429">Too many recent requests from you. Wait to make further queries.</response>
+        </member>
+        <member name="M:MantiScanServices.Controllers.OilSpillReportController.GetAllOilSpillReport">
+            <summary>
+            Returns OilSpillReport list for the authenticated user
+            </summary>		
+        </member>
+        <member name="M:MantiScanServices.Controllers.OilSpillReportController.GetOilSpillReportById(System.Int64)">
+            <summary>
+            Request information regarding Specific Report
+            </summary>
+            <remarks>Allows querying for Report data.</remarks>
+            <param name="id">Id</param>
+            <response code="200">Successful data request. Response includes requested data.</response>
+            <response code="400">Bad request. Typically validation error. Fix your request and retry.</response>
+            <response code="429">Too many recent requests from you. Wait to make further queries.</response>
+        </member>
+        <member name="M:MantiScanServices.Controllers.OilSpillReportController.DeleteReport(System.Int64)">
+            <summary>
+            Delete Specific Report
+            </summary>
+            <remarks>Delete Specific Report</remarks>
+            <param name="id">Id</param>
+            <response code="200">Successful data request. Response includes requested data.</response>
+            <response code="400">Bad request. Typically validation error. Fix your request and retry.</response>
+            <response code="429">Too many recent requests from you. Wait to make further queries.</response>
+        </member>
+        <member name="M:MantiScanServices.Controllers.OilSpillReportController.SaveUpdateOilSpillReport(MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView)">
+            <summary>
+            create new Oil Spill Report or Update existing Oil Spill Report datail
+            </summary>
+        </member>
+        <member name="M:MantiScanServices.Controllers.PlateFormController.GetAllPlateform">
+            <summary>
+            Returns Plateform list of specific organization
+            </summary>
+        </member>
+        <member name="M:MantiScanServices.Controllers.PlateFormController.GetPlateFormById(System.Int64)">
+            <summary>
+            Request information regarding specific plateform
+            </summary>
+            <remarks>Allows querying for plateform data.</remarks>
+            <param name="id">Id</param>
+            <response code="200">Successful data request. Response includes requested data.</response>
+            <response code="400">Bad request. Typically validation error. Fix your request and retry.</response>
+            <response code="429">Too many recent requests from you. Wait to make further queries.</response>
+        </member>
+        <member name="M:MantiScanServices.Controllers.PlateFormController.DeleteReport(System.Int64)">
+            <summary>
+            Delete Specific Plateform
+            </summary>
+            <remarks>Delete Specific Plateform</remarks>
+            <param name="id">Id</param>
+            <response code="200">Successful data request. Response includes requested data.</response>
+            <response code="400">Bad request. Typically validation error. Fix your request and retry.</response>
+            <response code="429">Too many recent requests from you. Wait to make further queries.</response>
+        </member>
+        <member name="M:MantiScanServices.Controllers.PlateFormController.SaveUpdatePlateForm(MantiScanServices.ViewModel.PlateForm.PlateFormViewModel)">
+            <summary>
+            create new Plateform or Update existing platform(oil rig) datail
+            </summary>
+        </member>
+        <member name="M:MantiScanServices.Controllers.TowerController.GetAllTowers">
+            <summary>
+            Returns tower list for the authenticated user
+            </summary>		
+        </member>
+        <member name="M:MantiScanServices.Controllers.TowerController.GetTowerById(System.Int64)">
+            <summary>
+            Request information regarding Specific tower
+            </summary>
+            <remarks>Allows querying for tower data.</remarks>
+            <param name="TowerId">Id</param>
+            <response code="200">Successful data request. Response includes requested data.</response>
+            <response code="400">Bad request. Typically validation error. Fix your request and retry.</response>
+            <response code="429">Too many recent requests from you. Wait to make further queries.</response>
+        </member>
+        <member name="M:MantiScanServices.Controllers.TowerController.DeleteReport(System.Int64)">
+            <summary>
+            Delete Specific Tower
+            </summary>
+            <remarks>Delete Specific Tower</remarks>
+            <param name="TowerId">Id</param>
+            <response code="200">Successful data request. Response includes requested data.</response>
+            <response code="400">Bad request. Typically validation error. Fix your request and retry.</response>
+            <response code="429">Too many recent requests from you. Wait to make further queries.</response>
+        </member>
+        <member name="M:MantiScanServices.Controllers.TowerController.PostTower(MantiScanServices.ViewModel.Master.TowerViewModel)">
+            <summary>
+            Create New tower.
+            </summary>
+        </member>
+        <member name="M:MantiScanServices.Controllers.TowerController.PutTower(MantiScanServices.ViewModel.Master.TowerViewModel)">
+            <summary>
+            Update existing country.
+            </summary>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.EmailTestViewModel.EmailTo">
+            <summary>
+            reciever email id
+            </summary>
+            <value>email id of reciever</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.EmailTestViewModel.EmailFrom">
+            <summary>
+            sender email id
+            </summary>
+            <value>email id of sender</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.EmailTestViewModel.EmailBody">
+            <summary>
+            sender mail id
+            </summary>
+            <value>mail id of sender</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.Master.TowerViewModel.TowerId">
+            <summary>
+            Id of tower
+            </summary>
+            <value>Id of tower</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.Master.TowerViewModel.TowerName">
+            <summary>
+            Name of tower
+            </summary>
+            <value>Name of tower</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.Master.TowerViewModel.DateCreated">
+            <summary>
+            Date of tower creation.
+            </summary>
+            <value>Date of tower creation.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.Master.TowerViewModel.IsActive">
+            <summary>
+            make tower active/inactive.
+            </summary>
+            <value>true or false</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.Master.TowerViewModel.IsDeleted">
+            <summary>
+            delete tower.
+            </summary>
+            <value>true or false</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.Master.TowerViewModel.UserId">
+            <summary>
+            Id of user (means super admin)
+            </summary>
+            <value>Id of user (means super admin).</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.NotificationAgencyView.ReportedBy">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.NotificationAgencyView.ReportedTo">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.NotificationAgencyView.Agency">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.NotificationAgencyView.IncidentNo">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.NotificationAgencyView.TimeDate">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.NotificationCompanyView.ReportedBy">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.NotificationCompanyView.ReportedToName">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.NotificationCompanyView.ReportedToPosition">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.NotificationCompanyView.TimeDate">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.OilSpillReportId">
+            <summary>
+            Id of specific oil spill report
+            </summary>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.ReportName">
+            <summary>
+            Name of oil spill report
+            </summary>        
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Name">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Position">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.ReportingPhone">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.ReportingCompany">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.SuspectedCompany">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.SuspectedPhone">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.DtIncidentOccurred">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.DtIncidentQiIc">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.AreaBlock">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Ocsg">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Facility">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Latitude">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Longitude">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.NearestCity">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Distance">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Discription">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Quanity">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.QtyUnitId">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Material">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.APIgravity">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Length">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.LengthUnitId">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Width">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.WidthUnitId">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.PercentageOfSlick">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.SourceSecuredAt">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.SourceContinous">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.SourceContinousUnitId">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.BarelyVisible">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.BrigthlyColored">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Silvery">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Dull">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.SlightlyColored">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Dark">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.AirTemp">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.WaterTemp">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Ceiling">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.CeilingUnitId">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Visibility">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.VisibilityUnitId">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Seas">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.SeasUnitId">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.WindDirection">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.WindVelocity">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.CurrentDirection">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.CurrentVelocity">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.ActionNotes">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Injuries">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Fatalities">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Evacuated">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Damage">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Drill">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.ActualSpill">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.FormPreparedBy">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.NRC">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.CaptainName">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.CaptainAddress">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.CaptainPhone">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.VesselName">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.VesselOwner">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.CardNo">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.CallSign">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Agent">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Flag">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.Remarks">
+            <summary>
+            Not Defined
+            </summary>
+            <value>Not Defined.</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.PlateFormId">
+            <summary>
+            plateForm Id of logged in user
+            </summary>
+            <value>1,2 or 3</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.UserId">
+            <summary>
+            Id of logged in user
+            </summary>
+            <value>1,2 or 3</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.OrganizationId">
+            <summary>
+            organization Id of logged in user
+            </summary>
+            <value>1,2 or 3</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.NotificationCompany">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.OilSpillReport.OilSpillReportView.NotificationAgency">
+            <summary>
+            not defined
+            </summary>
+            <value>not defined</value>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.ResponseMsg.HttpStatusCode">
+            <summary>
+            Gets or Sets HttpStatusCode
+            </summary>
+        </member>
+        <member name="P:MantiScanServices.ViewModel.ResponseMsg.Message">
+            <summary>
+            Gets or Sets Message
+            </summary>
+        </member>
+        <member name="M:MantiScanServices.ViewModel.ResponseMsg.ToString">
+            <summary>
+            Get the string presentation of the object
+            </summary>
+            <returns>String presentation of the object</returns>
+        </member>
+        <member name="M:MantiScanServices.ViewModel.ResponseMsg.ToJson">
+            <summary>
+            Get the JSON string presentation of the object
+            </summary>
+            <returns>JSON string presentation of the object</returns>
+        </member>
+        <member name="T:MantiScanServices.ViewModel.Security.RSAKeyUtils.RSAParametersWithPrivate">
+            <summary>
+            Util class to allow restoring RSA parameters from JSON as the normal
+            RSA parameters class won't restore private key info.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,5 @@
+D:\Project\MantiScanServices\MantiScanServices
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=MantiScanServices
+--content-root=D:\Project\MantiScanServices\MantiScanServices
+--file=

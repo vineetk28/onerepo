@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MantiScanServices", "MantiScanServices\MantiScanServices.csproj", "{3A3EB6AA-27AA-4B8F-980F-80D9E73A479F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A3EB6AA-27AA-4B8F-980F-80D9E73A479F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3EB6AA-27AA-4B8F-980F-80D9E73A479F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3EB6AA-27AA-4B8F-980F-80D9E73A479F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3EB6AA-27AA-4B8F-980F-80D9E73A479F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D7E35C2-440E-48E5-965B-05C26480428F}
+	EndGlobalSection
+EndGlobal

@@ -37,3 +37,15 @@ D:\Project\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScan
 D:\Project\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.AssemblyInfo.cs
 D:\Project\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.dll
 D:\Project\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.pdb
+E:\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.deps.json
+E:\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.runtimeconfig.json
+E:\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.runtimeconfig.dev.json
+E:\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.dll
+E:\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.pdb
+E:\MantiScanServices\MantiScanServices\bin\Debug\netcoreapp2.0\netcoreapp2.0\MantiScanServices.xml
+E:\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.csprojAssemblyReference.cache
+E:\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.csproj.CoreCompileInputs.cache
+E:\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.AssemblyInfoInputs.cache
+E:\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.AssemblyInfo.cs
+E:\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.dll
+E:\MantiScanServices\MantiScanServices\obj\Debug\netcoreapp2.0\MantiScanServices.pdb
